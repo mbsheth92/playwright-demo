@@ -1,0 +1,156 @@
+# Page snapshot
+
+```yaml
+- list:
+  - listitem:
+    - link "Discover LSEG":
+      - /url: https://lseg.com
+- list:
+  - listitem:
+    - button "Sign in/Register"
+- banner:
+  - navigation:
+    - link "LSEG MyAccount Dashboard":
+      - /url: /en/dashboard
+      - img "LSEG MyAccount Dashboard"
+    - text: MyAccount
+    - menubar:
+      - menuitem "Support":
+        - link "Support":
+          - /url: "#"
+    - button "Search"
+- text: Error
+- 'heading "404 : Page not found" [level=1]'
+- heading "Sorry, we can’t find the page you are looking for" [level=3]
+- paragraph: "This could be a result of:"
+- list:
+  - listitem: A mistyped address
+  - listitem: An out-of-date bookmark in your web browser
+  - listitem: A broken link on our site
+- link "Go to Dashboard":
+  - /url: /en/dashboard
+- link "Go to Help & Support":
+  - /url: /en/helpandsupport
+- search:
+  - text: Search
+  - combobox "Search"
+  - button "Submit search"
+- navigation:
+  - list:
+    - listitem:
+      - heading "ABOUT LSEG" [level=2]
+      - region "ABOUT LSEG":
+        - list:
+          - listitem:
+            - link "Who we are":
+              - /url: https://www.lseg.com/en/about-us
+          - listitem:
+            - link "Devportal":
+              - /url: https://developers.lseg.com/en
+          - listitem:
+            - link "Careers":
+              - /url: https://www.lseg.com/en/careers
+          - listitem:
+            - link "Media Centre":
+              - /url: https://www.lseg.com/en/media-centre
+          - listitem:
+            - link "Press Releases":
+              - /url: https://www.lseg.com/en/media-centre/press-releases
+    - listitem:
+      - heading "MARKET INSIGHTS" [level=2]
+      - region "MARKET INSIGHTS":
+        - list:
+          - listitem:
+            - link "LSEG Data & Analytics":
+              - /url: https://www.lseg.com/en/data-analytics
+          - listitem:
+            - link "LSEG Perspectives":
+              - /url: https://www.lseg.com/en/insights/data-analytics
+          - listitem:
+            - link "Reuters Editorial Forums":
+              - /url: https://www.lseg.com/en/data-analytics/products/lseg-messenger/editorial-communities-financial-forums
+          - listitem:
+            - link "Lipper Alpha Insight":
+              - /url: https://lipperalpha.refinitiv.com/
+          - listitem:
+            - link "MiFID II":
+              - /url: https://www.lseg.com/en/data-analytics/mifid
+    - listitem:
+      - heading "CONTACT US" [level=2]
+      - region "CONTACT US":
+        - list:
+          - listitem:
+            - link "Community Forum":
+              - /url: https://community.developers.refinitiv.com/
+          - listitem:
+            - link "Product Support":
+              - /url: https://myaccount.lseg.com/en/helpandsupport
+          - listitem:
+            - link "Sales":
+              - /url: https://www.lseg.com/en/contact-us
+          - listitem:
+            - link "Media Centre":
+              - /url: https://www.lseg.com/en/media-centre#contact
+          - listitem:
+            - link "Whistleblowing":
+              - /url: https://www.lseg.com/en/policies/whistleblowing
+    - listitem:
+      - heading "Languages" [level=2]
+      - region "Languages":
+        - list:
+          - listitem:
+            - link "English":
+              - /url: /en/helpandsupport
+          - listitem:
+            - link "日本語 – 日本":
+              - /url: /ja/helpandsupport
+          - listitem:
+            - link "简体中文 – 中国":
+              - /url: /zh/helpandsupport
+    - listitem:
+      - heading "EXPLORE LSEG SITES" [level=2]
+      - region "EXPLORE LSEG SITES":
+        - list:
+          - listitem:
+            - link "London Stock Exchange Group":
+              - /url: https://www.lseg.com/en
+          - listitem:
+            - link "London Stock Exchange":
+              - /url: https://www.londonstockexchange.com
+          - listitem:
+            - link "FTSE Russel":
+              - /url: https://www.lseg.com/en/ftse-russell
+          - listitem:
+            - link "LCH":
+              - /url: https://www.lseg.com/en/post-trade/clearing
+- link "LSEG MyAccount Dashboard":
+  - /url: /content/mytr/en/dashboard.html
+  - img "LSEG MyAccount Dashboard"
+- navigation:
+  - list:
+    - listitem:
+      - link "Privacy Statement":
+        - /url: https://www.lseg.com/en/policies/privacy-statement
+    - listitem:
+      - link "Cookie settings":
+        - /url: javascript:void(0)
+    - listitem:
+      - link "Terms of Use":
+        - /url: https://www.lseg.com/en/policies/website-disclaimer
+    - listitem:
+      - link "Copyright":
+        - /url: https://www.lseg.com/en/policies/website-disclaimer
+    - listitem:
+      - link "Do not sell my info":
+        - /url: https://privacyportalde-cdn.onetrust.com/dsarwebform/5f7a2da0-bed0-45e8-ac2c-c1f297e2efdc/1234b4c9-a981-4092-b398-cb80005998cf.html
+- region "Cookie banner":
+  - dialog "Our use of cookies":
+    - heading "Our use of cookies" [level=2]
+    - text: LSEG websites use cookies and similar technologies for various purposes including functionality, performance, targeting, social media, and for the proper functioning of websites. The cookies and similar technologies may include those deployed by third parties for providing services to us and they may use the same to improve, enhance, and deliver their services to all of their customers. To access a list of the websites covered by this banner review the cookie settings. By clicking “Accept all cookies,” you agree to the storing and reading of cookies and other similar technologies. To access a list of cookies used by this LSEG website please review the Cookie Settings. You can change your cookie preferences for this LSEG website at any time through our Cookie Settings tool, available at the footer of the website. For more information, please read our
+    - link "Cookie Statement, opens in a new tab":
+      - /url: https://www.lseg.com/en/policies/cookie-statement
+      - text: Cookie Statement
+    - button "Cookie settings, Opens the preference center dialog": Cookie settings
+    - button "Reject all"
+    - button "Accept all cookies"
+```

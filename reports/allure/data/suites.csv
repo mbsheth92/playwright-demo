@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","32283","default language English → Sign In navigates away","Chromium","Mon Aug 18 14:03:11 BST 2025","failed","Mon Aug 18 14:03:43 BST 2025","MyAccount SAML entry","","",""
+"","33223","default language English → Sign In navigates away","WebKit","Mon Aug 18 14:04:20 BST 2025","failed","Mon Aug 18 14:04:53 BST 2025","MyAccount SAML entry","","",""
+"","33275","default language English → Sign In navigates away","chrome","Mon Aug 18 14:09:13 BST 2025","failed","Mon Aug 18 14:09:46 BST 2025","MyAccount SAML entry","","",""
+"","32658","default language English → Sign In navigates away","Firefox","Mon Aug 18 14:03:44 BST 2025","failed","Mon Aug 18 14:04:16 BST 2025","MyAccount SAML entry","","",""

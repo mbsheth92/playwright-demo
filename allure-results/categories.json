@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Network issues",
+    "messageRegex": "ECONNRESET|ETIMEDOUT|ENOTFOUND"
+  },
+  {
+    "name": "Auth failures",
+    "messageRegex": "401|403|Session expired"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "types": ["@playwright/test"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "outDir": "dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@utils/*": ["src/utils/*"],
+      "@commonComponents/*": ["src/commonComponents/*"],
+      "@fixtures/*": ["tests/fixtures/*"],
+      "@pages/*": ["src/pageFactory/pages/*"],
+      "@pageFactory/*": ["src/pageFactory/*"]
+    },
+  },
+  "include": ["src", "tests", "playwright.config.ts"]
+}
