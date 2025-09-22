@@ -19,6 +19,7 @@ export default defineConfig({
     forbidOnly: !!process.env.CI,
     fullyParallel: true,
     globalSetup: require.resolve('./tests/setup/global-setup.ts'),
+    globalTeardown: require.resolve('./tests/setup/global-teardown.ts'),
     outputDir: '.build/test-results',
   testDir: './tests',
   timeout: 60_000,
