@@ -24,6 +24,7 @@
     "commit:lint": "commitlint --from=HEAD~1",
     "commit:lint:fix": "commitlint --from=HEAD~1 --fix",
     "precommit": "lint-staged",
+    "mock:server": "node scripts/mock-rpc-server.js",
     "allure:report": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
     "allure:serve": "allure serve allure-results",
     "allure:gen": "allure generate allure-results -o reports/allure --clean",
@@ -60,6 +61,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
+    "node-fetch": "^3.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
